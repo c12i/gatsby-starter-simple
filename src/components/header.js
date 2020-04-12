@@ -22,7 +22,6 @@ const Header = ({ siteTitle }) => (
         {siteTitle}
       </Link>
     </h1>
-    <small>Blog by Collin</small>
     <nav
     style={{textAlign: `right`}}
     >
