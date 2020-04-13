@@ -32,6 +32,7 @@ exports.createPages = async ({ graphql, actions }) => {
               author
             }
             html
+            excerpt
             fields {
               slug
             }
@@ -53,7 +54,8 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         id: node.id,
         frontmatter: node.frontmatter,
-        html: node.html
+        html: node.html,
+        excerpt: node.excerpt
       }
     })
   });
