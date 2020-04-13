@@ -12,6 +12,8 @@
   </a>
 </p>
 
+<img alt="Screenshot" src="src/images/screenshot.png" />
+
 > A minimal blogging starter
 >* styled-components
 >* gatsby-transformer-remark
