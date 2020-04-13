@@ -5,9 +5,13 @@ author: 'anonymous'
 description: 'A post about ice cream'
 ---
 
-### Ice cream is the best.
+#### Ice cream is the best.
 
 I scream, you scream, we all scream, because there's no more ice cream. No one's rhyming about spinach.
+
+> Ice cream is love, Ice cream is life.
+>
+> -- <cite>Anonymous</cite>
 
 Here is a description of this heavenly nectar from wikipedia on [ice cream](https://en.wikipedia.org/wiki/Ice_cream): 
 

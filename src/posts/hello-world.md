@@ -7,10 +7,12 @@ description: 'Example post'
 
 **Hello world**, this is my first Gatsby blog post.
 
-I hope you like it!
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
-# Highlighter
-### Ruby
+<img src="https://picsum.photos/1200/800?grayscale">
+
+#### Highlighter
 ```ruby
 def show
   puts "Hello there!"
@@ -22,56 +24,4 @@ def show
 end
 ```
 
-### Php
-```php
-<?php
-  print("Hello {$world}");
-?>
-```
-
-### Java
-```java
-public class java {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
-```
-
-### HTML
-```html
-<html>
-  <head><title>Title!</title></head>
-  <body>
-    <p id="foo">Hello, World!</p>
-    <script type="text/javascript">var a = 1;</script>
-    <style type="text/css">#foo { font-weight: bold; }</style>
-  </body>
-</html>
-```
-
-### Console
-```console
-# prints "hello, world" to the screen
-~# echo Hello, World
-Hello, World
-
-# don't run this
-~# rm -rf --no-preserve-root /
-```
-
-### Css
-```css
-body {
-    font-size: 12pt;
-    background: #fff url(temp.png) top left no-repeat;
-}
-```
-
-### Yaml
-```yaml
----
-one: Mark McGwire
-two: Sammy Sosa
-three: Ken Griffey
-```
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
