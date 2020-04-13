@@ -1,8 +1,10 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo/seo"
+
+import { BlogLink, BlogTitle } from "../styled-components/index"
 
 export default ({ data }) => (
   <Layout>
@@ -10,12 +12,11 @@ export default ({ data }) => (
     {
        data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
-          <Link to={node.fields.slug}>
-            <h2>{node.frontmatter.title}</h2>
-          </Link>
+          <BlogLink to={node.fields.slug}>
+            <BlogTitle>{node.frontmatter.title}</BlogTitle>
+          </BlogLink>
           <time>{new Date(node.frontmatter.date).toDateString()}</time>
           <p>{node.excerpt}</p>
-          <hr />
         </div>
       ))
     }
