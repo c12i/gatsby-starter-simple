@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export const BlogLink = styled(Link)`
   text-decoration: none;
-  color: rebeccapurple;
+  color: #333;
 `
 
 export const BlogTitle = styled.h3`
