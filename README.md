@@ -21,16 +21,9 @@
 
 ### ✨ [Demo](https://thecodemint.github.io/gatsby-starter-simple/)
 
-## Install
-
+## Use as Gatsby starter
 ```sh
-yarn
-```
-
-## Usage
-
-```sh
-gatsby develop
+gatsby new project-name https://github.com/thecodemint/gatsby-starter-simple.git 
 ```
 
 ## Author
