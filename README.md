@@ -1,4 +1,4 @@
-<h1 align="center">Gatsby Simple Starter</h1>
+<h1 align="center">Gatsby Simple Blog Starter</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/thecodemint/gatsby-starter-simple/tree/master#readme" target="_blank">
@@ -12,7 +12,7 @@
   </a>
 </p>
 
-> A minimal starter to get up and developing blogs quickly with Gatsby
+> A minimal blogging starter
 >* styled-components
 >* gatsby-transformer-remark
 >* gatsby-plugin-offline
