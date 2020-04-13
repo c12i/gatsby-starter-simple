@@ -2,6 +2,7 @@
 title: "Why I Love Ice Cream"
 date: "2020-04-11"
 author: 'anonymous'
+description: 'A post about ice cream'
 ---
 
 ### Ice cream is the best.
