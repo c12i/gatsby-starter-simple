@@ -6,7 +6,7 @@ import SEO from "../components/seo/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="About" description="About Me"/>
-    <p>Welcome to about</p>
+    <p>Tell us about yourself</p>
   </Layout>
 )
 
