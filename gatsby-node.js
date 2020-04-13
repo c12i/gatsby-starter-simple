@@ -51,6 +51,7 @@ exports.createPages = async ({ graphql, actions }) => {
       path: `${node.fields.slug}`,
       component: slash(pageTemplate),
       context: {
+        id: node.id,
         frontmatter: node.frontmatter,
         html: node.html
       }
