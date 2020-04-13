@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    // Update the following values to what you please
     title: `Simple Blog`,
     description: `Kick off your next, great Gatsby project with this simple starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `Simple`,
@@ -39,6 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
+        // replace the shortname with your own
+        // how to get Disqus shortname https://help.disqus.com/en/articles/1717111-what-s-a-shortname
         shortname: `mydisqus`
       }
     },
