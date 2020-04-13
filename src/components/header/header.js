@@ -7,7 +7,7 @@ import "./header.css"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      padding:`50px 30px`,
+      padding:`30px 30px`,
       borderBottom:`1px solid #ddd`
     }}
   >
@@ -26,7 +26,6 @@ const Header = ({ siteTitle }) => (
     style={{textAlign: `right`}}
     >
       <Link to="/about">About</Link>
-      <Link to="/feed">Feed</Link>
     </nav>
   </header>
 )
