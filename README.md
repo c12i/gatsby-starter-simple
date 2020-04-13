@@ -23,15 +23,17 @@
 
 ### ✨ [Demo](https://thecodemint.github.io/gatsby-starter-simple/)
 
-## Use as Gatsby starter
+## Usage
+**Prerequisites**: [gatsby-cli](https://www.gatsbyjs.org/docs/quick-start/)
 ```sh
 gatsby new project-name https://github.com/thecodemint/gatsby-starter-simple.git 
 ```
 
 ## Config
-> To make this blog your own, simply change the configs in gatsby-config.js
-> To add your own posts, write markdown files similar to the example templates in src/posts and save them in the same directory. Simply commit your changes and push to publish your posts
-> Plese note that the defaut disqus shortname is just a Chinese example, use your own by visiting Disqus to view the comment section in English
+>* To make this blog your own, simply change the configs in gatsby-config.js
+>* To add your own posts, write markdown files similar to the example templates in src/posts and save them in the same directory. Simply commit your changes and push to publish your posts.
+>* Please note that the defaut disqus shortname is just a Chinese example, use your own by visiting Disqus to view the comment section in English.
+>* Have fun and feel free to modify the starter as you please 😃!
 
 ## Author
 
