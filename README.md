@@ -40,7 +40,7 @@ gatsby develop
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/gatsbyjs/gatsby/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/thecodemint/gatsby-starter-simple/issues). 
 
 ## Show your support
 
