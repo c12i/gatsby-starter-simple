@@ -4,6 +4,7 @@ module.exports = {
     description: `Kick off your next, great Gatsby project with this simple starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `Simple`,
   },
+  pathPrefix: "/gatsby-starter-simple",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
