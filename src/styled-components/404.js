@@ -2,13 +2,14 @@ import styled from "styled-components"
 
 // s/o to https://codepen.io/pgalor/pen/OeRWJQ
 
-export const Container404 = styled.div`
+export const NotFoundContainer = styled.div`
   text-align: center;
-  margin: 0;
+  margin: 0 0 40px 0;
   font-size: 96px;
   font-family: 'Fira Mono', monospace;
+  color: #222;
   letter-spacing: -7px;
-  animation: glitch 1s linear infinite;
+  animation: glitch 1s linear infinite; 
 
   @keyframes glitch{
     2%,64%{
@@ -64,4 +65,8 @@ export const Container404 = styled.div`
       transform: translate(-22px,5px) skew(21deg); 
     }
   }
+`
+
+export const HelperText = styled.div`
+  text-align: center;
 `
