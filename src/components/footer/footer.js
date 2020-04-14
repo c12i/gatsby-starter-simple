@@ -1,11 +1,11 @@
 import React from "react"
 
-import { FooterContainer } from "../../styled-components/footer"
+import "../../styles/footer.scss"
 
 const Footer = ({ title }) => (
-  <FooterContainer>
+  <footer>
     { title }  © {new Date().getFullYear()}
-  </FooterContainer>
+  </footer>
 )
 
 export default Footer
