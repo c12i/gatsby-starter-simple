@@ -20,6 +20,7 @@
 >* gatsby-plugin-disqus
 >* gatsby-transformer-remark
 >* gatsby-plugin-offline
+>* gatsby-plugin-sass
 
 ### ✨ [Demo](https://thecodemint.github.io/gatsby-starter-simple/)
 
