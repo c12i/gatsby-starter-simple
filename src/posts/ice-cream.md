@@ -9,9 +9,9 @@ description: 'A post about ice cream'
 
 I scream, you scream, we all scream, because there's no more ice cream. No one's rhyming about spinach.
 
-> Ice cream is love, Ice cream is life.
+> "You can't buy happiness, but you can buy ice cream and that is pretty much the same thing"
 >
-> -- <cite>Anonymous</cite>
+> -- <cite>Unknown</cite>
 
 Here is a description of this heavenly nectar from wikipedia on [ice cream](https://en.wikipedia.org/wiki/Ice_cream): 
 
@@ -27,3 +27,7 @@ Here is a description of this heavenly nectar from wikipedia on [ice cream](http
 > The result is a smooth, semi-solid foam that is solid at 
 > very low temperatures (below 2 °C or 35 °F). It becomes 
 > more malleable as its temperature increases.
+
+<iframe width="1280" height="721" src="https://www.youtube.com/embed/5Kt5ymNjea8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Thank you for taking your time to read this.
