@@ -3,16 +3,16 @@ import { Link } from "gatsby"
 import Layout from "../components/layout/layout"
 import SEO from "../components/SEO/seo"
 
-import { NotFoundContainer, HelperText } from "../styled-components/404"
+import "../styles/404.scss"
 
 const NotFoundPage = () => (
   <Layout headless>
     <SEO title="Not Found" />
-    <NotFoundContainer>404</NotFoundContainer>
-    <HelperText>
+    <div className="not-found">404</div>
+    <div className="helper-text">
       <p>I find your lack of navigation disturbing...</p>
       <Link to="/">Back home</Link>
-    </HelperText>
+    </div>
   </Layout>
 )
 

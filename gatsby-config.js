@@ -80,6 +80,7 @@ module.exports = {
         cookieDomain: "example.com",
       },
     },
+    `gatsby-plugin-sass`,
     `gatsby-plugin-offline`,
   ],
 }
