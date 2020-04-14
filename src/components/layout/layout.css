@@ -28,22 +28,22 @@ article {
 
 article h1 {
   color: #2b2b2b;
-  font: 42px "Droid Sans", sans-serif;
+  font: 44px "Droid Sans", sans-serif;
 }
 
 article h2 {
   color: #2b2b2b;
-  font: 36px "Droid Sans", sans-serif;
+  font: 38px "Droid Sans", sans-serif;
 }
 
 article h3 {
   color: #2b2b2b;
-  font: 33px "Droid Sans", sans-serif;
+  font: 35px "Droid Sans", sans-serif;
 }
 
 article h4 {
   color: #2b2b2b;
-  font: 24px "Droid Sans", sans-serif;
+  font: 28px "Droid Sans", sans-serif;
 }
 
 article p {
@@ -66,5 +66,9 @@ code {
 @media screen and (max-width: 500px) {
   nav {
     text-align: left;
+  }
+
+  iframe {
+	  height: 240px;
   }
 }
