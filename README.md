@@ -12,7 +12,7 @@
   <a href="https://github.com/gatsbyjs/gatsby-starter-default/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/thecodemint/gatsby-starter-simple/blob/master/LICENSE" target="_blank">
+  <a href="LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/collinsmuriuki/Gatsby Simple Starter" />
   </a>
 </p>
