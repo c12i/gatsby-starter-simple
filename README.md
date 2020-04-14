@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://github.com/thecodemint/gatsby-starter-simple">
+    <img alt="Simple" src="/src/images/simple-icon.png" width="60" />
+  </a>
+</p>
 <h1 align="center">Gatsby Simple Blog Starter</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.1.4-blue.svg?cacheSeconds=2592000" />
