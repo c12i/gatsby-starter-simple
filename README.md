@@ -19,13 +19,18 @@
 
 <img alt="Screenshot" src="src/images/screenshot.png" />
 
-> A minimal blogging starter
+> A minimal blogging starter using the following gatsby-plugins
 >* styled-components
 >* gatsby-plugin-google-analytics
 >* gatsby-plugin-disqus
 >* gatsby-transformer-remark
 >* gatsby-plugin-offline
 >* gatsby-plugin-sass
+
+> TODOS
+>* Add pagination
+>* Add dark/light mode toggling
+>* Add headless CMS support
 
 ### ✨ [Demo](https://thecodemint.github.io/gatsby-starter-simple/)
 
