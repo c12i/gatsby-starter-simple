@@ -15,6 +15,9 @@
   <a href="LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
+  <a href="https://travis-ci.com/thecodemint/gatsby-starter-simple">
+    <img src="https://travis-ci.com/thecodemint/gatsby-starter-simple.svg?" alt="build:failed">
+  </a>
 </p>
 
 <img alt="Screenshot" src="src/images/screenshot.png" />
