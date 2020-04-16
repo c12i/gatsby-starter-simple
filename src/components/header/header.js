@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import "./header.css"
+import "./header.scss"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -13,6 +13,7 @@ const Header = ({ siteTitle }) => (
   >
     <h1 style={{ color:`#2b2b2b` }}>
       <Link
+      className="header-text"
         to="/"
         style={{
           color:`#2b2b2b`,
