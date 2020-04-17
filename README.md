@@ -46,7 +46,8 @@ gatsby new project-name https://github.com/thecodemint/gatsby-starter-simple.git
 ## Config
 >* To make this blog your own, simply change the configs in gatsby-config.js
 >* To add your own posts, write markdown files similar to the example templates in src/posts and save them in the same directory. Simply commit your changes and push to publish your posts.
->* Please note that the defaut disqus shortname is just a Chinese example, use your own by visiting Disqus to view the comment section in English.
+>* To enable Google Analytics, provide your tracking id in gatsby-config.js
+>* Provide your personal Disqus shortname in gatsby-config.js to enable comments on your blog posts
 >* Have fun and feel free to modify the starter as you please 😃!
 
 ## Author
