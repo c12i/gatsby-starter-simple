@@ -42,7 +42,7 @@ module.exports = {
       options: {
         // replace the shortname with your own
         // how to get Disqus shortname https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-        shortname: `mydisqus`
+        shortname: `simple-blog-7`
       }
     },
     {
