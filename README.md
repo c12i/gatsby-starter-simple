@@ -5,7 +5,7 @@
 </p>
 <h1 align="center">Gatsby Simple Blog Starter</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.4-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.1.5-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/thecodemint/gatsby-starter-simple/tree/master#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
