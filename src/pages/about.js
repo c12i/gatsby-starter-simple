@@ -22,9 +22,7 @@ const About = () => {
     }
   `)
   const { siteMetadata: { bio, socials }  } = data.site;
-
-  console.log(bio, socials)
-
+  
   return (
     <Layout>
       <SEO title="About" description="About Me" />
