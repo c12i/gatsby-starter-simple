@@ -25,6 +25,7 @@ export const PrePost = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 0.9em;
-  opacity: 0.6;
+  font-size: 0.85em;
+  color: #888;
+  font-weight: 500;
 `

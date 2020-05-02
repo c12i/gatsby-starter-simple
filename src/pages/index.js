@@ -15,9 +15,9 @@ export default ({ data }) => (
           <BlogTitle>{node.frontmatter.title}</BlogTitle>
         </BlogLink>
         <PrePost>
-          <time>
+          <span>
             {new Date(node.frontmatter.date).toDateString().toUpperCase()}
-          </time>
+          </span>
           <span>{node.timeToRead} MIN READ</span>
         </PrePost>
         <p>{node.excerpt}</p>
