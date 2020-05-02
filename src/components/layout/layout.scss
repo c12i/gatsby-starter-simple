@@ -44,6 +44,7 @@ a:hover {
 }
 
 blockquote {
+  font: fantasy;
 	padding-left: 15px;
 	border-left: 3px solid #eee;
 }
@@ -72,7 +73,7 @@ section {
 }
 
 article {
-  font: sans-serif;
+  font-family: "Droid Sans", sans-serif;
   line-height: 1.8em;
   font-weight: 200;
   color: #505050;
@@ -80,22 +81,22 @@ article {
 
 article h1 {
   color: #2b2b2b;
-  font: 3.2rem "Droid Sans", sans-serif;
+  font: 3.2rem sans-serif;
 }
 
 article h2 {
   color: #2b2b2b;
-  font: 2.6rem "Droid Sans", sans-serif;
+  font: 2.6rem sans-serif;
 }
 
 article h3 {
   color: #2b2b2b;
-  font: 2.2rem "Droid Sans", sans-serif;
+  font: 2.2rem sans-serif;
 }
 
 article h4 {
   color: #2b2b2b;
-  font: 1.8rem "Droid Sans", sans-serif;
+  font: 1.8rem sans-serif;
 }
 
 article p {
@@ -108,7 +109,6 @@ article img {
 }
 
 code {
- 
   display: block;
   overflow-y: scroll;
   max-width: 700px;
