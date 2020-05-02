@@ -25,6 +25,7 @@ exports.createPages = async ({ graphql, actions }) => {
         edges {
           node {
             id
+            timeToRead
             frontmatter {
               date
               title
@@ -53,6 +54,7 @@ exports.createPages = async ({ graphql, actions }) => {
       component: slash(pageTemplate),
       context: {
         id: node.id,
+        timeToRead: node.timeToRead,
         frontmatter: node.frontmatter,
         html: node.html,
         excerpt: node.excerpt

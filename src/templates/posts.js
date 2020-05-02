@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout/layout"
 import SEO from "../components/SEO/seo"
 
-import { BlogTitle } from "../styled-components/index"
+import { MainBlogTitle, PrePost } from "../styled-components/index"
 import { Disqus } from "gatsby-plugin-disqus"
 
 export default ({ pageContext: { frontmatter, html, id } }) => {
@@ -12,13 +12,16 @@ export default ({ pageContext: { frontmatter, html, id } }) => {
   }
 
   return (
-  <Layout>
-    <SEO 
-      title={frontmatter.title}
-      description={frontmatter.excerpt}
-    />
-    <BlogTitle>{frontmatter.title}</BlogTitle>
-    <div dangerouslySetInnerHTML={{__html: html}} />
-    <Disqus config={disqusConfig} />
-  </Layout>
-)}
+    <Layout>
+      <SEO title={frontmatter.title} description={frontmatter.excerpt} />
+      <MainBlogTitle>{frontmatter.title}</MainBlogTitle>
+      <PrePost>
+        <time>
+          {new Date(frontmatter.date).toDateString().toUpperCase()}
+        </time>
+      </PrePost>
+      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <Disqus config={disqusConfig} />
+    </Layout>
+  )
+}
