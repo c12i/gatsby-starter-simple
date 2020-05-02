@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
     <nav
     style={{textAlign: `right`}}
     >
-      <Link to="/about">About</Link>
+      <Link style={{fontFamily: "'Droid Sans', sans-serif"}} to="/about">About</Link>
     </nav>
   </header>
 )
