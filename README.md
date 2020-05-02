@@ -5,7 +5,7 @@
 </p>
 <h1 align="center">Gatsby Simple Blog Starter</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.4-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.1.5-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/thecodemint/gatsby-starter-simple/tree/master#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -14,9 +14,6 @@
   </a>
   <a href="LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-  <a href="https://travis-ci.com/thecodemint/gatsby-starter-simple">
-    <img src="https://travis-ci.com/thecodemint/gatsby-starter-simple.svg?" alt="build:failed">
   </a>
 </p>
 
@@ -46,7 +43,8 @@ gatsby new project-name https://github.com/thecodemint/gatsby-starter-simple.git
 ## Config
 >* To make this blog your own, simply change the configs in gatsby-config.js
 >* To add your own posts, write markdown files similar to the example templates in src/posts and save them in the same directory. Simply commit your changes and push to publish your posts.
->* Please note that the defaut disqus shortname is just a Chinese example, use your own by visiting Disqus to view the comment section in English.
+>* To enable Google Analytics, provide your tracking id in gatsby-config.js
+>* Provide your personal Disqus shortname in gatsby-config.js to enable comments on your blog posts
 >* Have fun and feel free to modify the starter as you please 😃!
 
 ## Author

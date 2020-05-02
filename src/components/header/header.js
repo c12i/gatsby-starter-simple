@@ -13,6 +13,7 @@ const Header = ({ siteTitle }) => (
   >
     <h1 style={{ color:`#2b2b2b` }}>
       <Link
+      className="header-text"
         to="/"
         style={{
           color:`#2b2b2b`,
