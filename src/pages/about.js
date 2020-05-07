@@ -34,7 +34,7 @@ const About = () => {
             <div key={social.url}>
               <a href={social.url}>{social.name}</a>
               {
-                socials.lastIndexOf(social) ? null : <Divider />
+                socials.lastIndexOf(social) === socials.length - 1 ? null : <Divider />
               }
             </div>
           )
