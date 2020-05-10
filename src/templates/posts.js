@@ -13,7 +13,7 @@ export default ({ pageContext: { frontmatter, html, id } }) => {
 
   return (
     <Layout>
-      <SEO title={frontmatter.title} description={frontmatter.excerpt} />
+      <SEO title={frontmatter.title} description={frontmatter.description} />
       <MainBlogTitle>{frontmatter.title}</MainBlogTitle>
       <PrePost>
         <time>
